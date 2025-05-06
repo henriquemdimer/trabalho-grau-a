@@ -104,10 +104,10 @@ int play(struct Player player)
                                        player.id, roll);
                                 int random = get_random(0, 100);
 
-				// 50% de chance de parar
-				// Talvez devo implementar um sistema de dificulades
-				// onde o Bot utiliza de algumas estrategias/regras para continuar ou parar
-				// baseado nos pontos dele e dos outros jogadores, mas estou sem tempo :)
+                                // 50% de chance de parar
+                                // Talvez devo implementar um sistema de dificulades
+                                // onde o Bot utiliza de algumas estrategias/regras para continuar ou parar
+                                // baseado nos pontos dele e dos outros jogadores, mas estou sem tempo :)
                                 if (random <= 50)
                                         stop = 's';
                                 else
